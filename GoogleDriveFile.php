@@ -2,7 +2,7 @@
 
 namespace src\Solid\lsp;
 
-class GoogleDriveFile implements FileInterface
+class GoogleDriveFile implements DownloaderFileInterface
 {
 
     public function rename()
