@@ -8,10 +8,8 @@ class FileService implements FileServiceInterface
     /**
      * @throws \Exception
      */
-    public function encode(FileInterface $file): string
+    public function encode(EncodebaleFileInterface $file): string
     {
-        if (!($file instanceof FileInterface)) {
-            throw new \Exception('Invalid file');
-        }
+
     }
 }
