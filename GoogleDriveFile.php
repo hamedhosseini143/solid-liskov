@@ -20,7 +20,7 @@ class GoogleDriveFile implements DownloaderFileInterface
         // TODO: Implement copy() method.
     }
 
-    public function download()
+    public function download():bool
     {
         // TODO: Implement download() method.
     }

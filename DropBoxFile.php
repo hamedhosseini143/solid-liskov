@@ -19,7 +19,7 @@ class DropBoxFile implements DownloaderFileInterface
         // TODO: Implement copy() method.
     }
 
-    public function download()
+    public function download():string
     {
         // TODO: Implement download() method.
     }
